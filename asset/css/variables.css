@@ -1,0 +1,45 @@
+:root {
+  /* COLORS */
+  --color-purple-primary: #a855f7; /* purple-500 */
+  --color-purple-dark: #9333ea; /* purple-600 */
+  --color-purple-light: #c084fc; /* purple-400 */
+  --color-bg-black: #000000;
+  --color-card-bg: #18181b; /* zinc-900 */
+  --color-text-white: #ffffff;
+  --color-text-gray: rgba(255, 255, 255, 0.6);
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-purple: rgba(168, 85, 247, 0.5);
+
+  /* SPACING SCALE */
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+  --space-128: 128px;
+
+  /* TYPOGRAPHY */
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-h1: 3rem;
+  --font-size-h2: 2.25rem;
+  --font-size-h3: 1.5rem;
+  --font-size-h4: 1.125rem;
+
+  /* FONT WEIGHTS */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+
+  /* BORDER RADIUS */
+  --radius-card: 8px;
+  --radius-button: 6px;
+  --radius-badge: 6px;
+}

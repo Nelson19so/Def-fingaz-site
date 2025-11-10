@@ -1,3 +1,38 @@
 @import url("./animation.css");
 @import url("./responsive.css");
 @import url("./variables.css");
+
+/*
+    Def fingaz styling begins
+ */
+
+/* Navbar */
+.navbar {
+  padding: var(--space-16) var(--space-32);
+  background-color: var(--color-bg-black);
+  color: var(--color-text-white);
+}
+
+/* Hero Section */
+.hero {
+  padding: var(--space-128) var(--space-32);
+  background: var(--color-card-bg);
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-white);
+}
+
+/* Paragraphs */
+p {
+  font-size: var(--font-size-base);
+  color: var(--color-text-gray);
+}
+
+div {
+  background-color: var(--color-bg-black);
+}

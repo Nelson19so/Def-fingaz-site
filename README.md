@@ -32,7 +32,8 @@ Tailwind CSS Styling and responsive layout
 Bootstrap (optional) Prebuilt components (used by teammate)
 Font Awesome / Lucide Icons (optional) Icons for visual enhancement
 📁 Folder Structure
-soundwave-studio/
+
+Def fingaz/
 │
 ├── index.html # Main landing page
 ├── /assets
