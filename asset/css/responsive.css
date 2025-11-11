@@ -1,0 +1,175 @@
+@import url("./variables.css");
+
+/* 
+    Page responsiveness
+ */
+
+@media only screen and (max-width: 1145px) {
+  /* responsive navbar in different screens */
+  .navbar .container-navbar-padding {
+    gap: var(--space-48);
+  }
+}
+
+@media only screen and (max-width: 1105px) {
+  /* responsive navbar in different screens */
+  .navbar .container-navbar-padding {
+    padding: var(--space-8) var(--space-64);
+    gap: var(--space-96);
+  }
+
+  /* responsive navbar in different screens */
+  .pages-footer .container-footer-padding {
+    padding: var(--space-32) var(--space-64);
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  /* responsive navbar in different screens */
+  .navbar .container-navbar-padding {
+    padding: var(--space-8) var(--space-64);
+    gap: var(--space-64);
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  /* responsive navbar in different screens */
+  .navbar .container-navbar-padding {
+    padding: var(--space-8) var(--space-64);
+    gap: var(--space-28);
+  }
+
+  /* footer */
+  .navbar .container-navbar-padding .container-ul-list-btn {
+    gap: var(--space-28);
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  /* footer */
+  .pages-footer .container-footer-padding .top-footer-container {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--space-16);
+  }
+  .pages-footer .container-footer-padding .container-footer-middle-container {
+    justify-content: flex-start;
+    gap: var(--space-96);
+  }
+}
+
+@media only screen and (max-width: 911px) {
+  /* responsive footer in different screens */
+  .pages-footer .container-footer-padding .container-footer-middle-container {
+    flex: 1.5;
+  }
+}
+
+@media only screen and (max-width: 886px) {
+  /* responsive navbar in different screens */
+  .navbar .container-navbar-padding {
+    padding: var(--space-8) var(--space-48);
+    gap: var(--space-28);
+  }
+
+  /* responsive footer in different screens */
+  .pages-footer .container-footer-padding {
+    padding: var(--space-32) var(--space-48);
+  }
+}
+
+@media only screen and (max-width: 853px) {
+  /* responsive navbar in different screens */
+  .navbar .container-navbar-padding {
+    padding: var(--space-8) var(--space-16);
+    gap: var(--space-16);
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* responsive navbar in different screens */
+  .navbar
+    .container-navbar-padding
+    .navbar-container-logo
+    .container-mobile-navbar-dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* responsive navbar in different screens */
+  .svg-display {
+    display: block !important;
+  }
+  .svg-hidden {
+    display: none;
+  }
+  /* svg responsive display */
+
+  .navbar .container-navbar-padding {
+    padding: var(--space-12) var(--space-12);
+    flex-direction: column;
+    gap: 0;
+  }
+  .navbar .container-navbar-padding .navbar-container-logo {
+    height: auto;
+    flex: none;
+    text-align: center;
+    width: 100%;
+  }
+  .navbar .container-navbar-padding .container-ul-list-btn {
+    display: flex;
+    gap: var(--space-32);
+    flex-direction: column;
+    flex: none;
+    width: 100%;
+    align-items: stretch;
+    height: 0;
+    overflow: hidden;
+  }
+  .navbar .container-navbar-padding .container-ul-list-btn .container-ul ul {
+    gap: var(--space-4);
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar .container-navbar-padding .container-ul-list-btn .container-ul ul li {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar
+    .container-navbar-padding
+    .container-ul-list-btn
+    .container-ul
+    ul
+    li
+    a {
+    display: block;
+    width: 100%;
+    padding: var(--space-8) 0;
+  }
+  .navbar
+    .container-navbar-padding
+    .container-ul-list-btn
+    .container-ul
+    ul
+    li
+    a:hover,
+  a:active,
+  a:visited,
+  a:focus {
+    color: var(--color-text-white);
+    background-color: var(--color-card-bg);
+  }
+
+  /* responsive navbar in different screens */
+  .pages-footer .container-footer-padding {
+    padding: var(--space-12) var(--space-12);
+  }
+  .pages-footer .footer-container-bottom {
+    flex-direction: column;
+  }
+}
