@@ -2,7 +2,7 @@
 
 /* Hero section */
 .hero-section {
-  height: fit-content;
+  height: max-content;
   width: 100vw;
   position: relative;
 }
