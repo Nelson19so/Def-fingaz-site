@@ -1,6 +1,7 @@
 @import url("./animation.css");
 @import url("./responsive.css");
 @import url("./variables.css");
+@import url("./home.css");
 
 /*
     Def fingaz main styling css file
@@ -47,6 +48,7 @@ ul li {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 9999999;
 }
 .navbar .container-navbar-padding {
   padding: var(--space-8) var(--space-128);
@@ -139,6 +141,7 @@ a:focus {
   bottom: 0;
   right: 0;
   left: 0;
+  z-index: 9999;
 }
 .pages-footer .container-footer-padding {
   padding: var(--space-32) var(--space-128);
@@ -289,13 +292,6 @@ button:focus {
 a:focus,
 a:visited {
   color: var(--color-text-white);
-}
-
-/* Hero Section */
-.hero {
-  padding: var(--space-128) var(--space-32);
-  background: var(--color-card-bg);
-  text-align: center;
 }
 
 /* Headings */

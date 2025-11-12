@@ -1,0 +1,90 @@
+/* Home page */
+
+/* Hero section */
+.hero-section {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.hero-section .hero-background-image-slide {
+  width: 100%;
+  height: 100%;
+}
+.hero-section .hero-background-image-slide img {
+  width: 100%;
+  height: 100%;
+}
+.hero-section .hero {
+  padding: var(--space-128) var(--space-32);
+  background: var(--color-card-bg);
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(1px);
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-section .hero .container-articles {
+  width: 57%;
+}
+.hero-section .hero .container-articles p {
+  color: var(--color-text-white);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-medium);
+}
+.hero-section .hero .container-articles span {
+  color: var(--color-text-gray);
+}
+.hero-section .hero .container-articles .container-button {
+  margin-top: var(--space-64);
+  display: flex;
+  justify-content: center;
+  gap: var(--space-20);
+  width: 100%;
+}
+.hero-section .hero .container-articles .container-button .get-started {
+  border: none;
+  border-radius: var(--radius-button);
+  padding: var(--space-12) var(--space-16);
+  background-color: var(--color-purple-primary);
+  color: var(--color-text-white);
+  font-weight: var(--font-weight-medium);
+  font-size: 14.6px;
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-8);
+}
+.hero-section .hero .container-articles .container-button .watch-demo {
+  border: none;
+  border-radius: var(--radius-button);
+  padding: var(--space-12) var(--space-16);
+  background-color: rgb(255, 255, 255, 0.2);
+  color: var(--color-text-white);
+  font-weight: var(--font-weight-medium);
+  font-size: 14.6px;
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-8);
+}
+.hero-section .hero .container-experience {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-64);
+  margin-top: var(--space-96);
+  width: 65%;
+}
+.hero-section .hero .container-experience span {
+  color: var(--color-purple-primary);
+}

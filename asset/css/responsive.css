@@ -172,4 +172,18 @@
   .pages-footer .footer-container-bottom {
     flex-direction: column;
   }
+
+  /* responsive home page hero section */
+  .hero-section .hero .container-articles {
+    width: 100%;
+  }
+  .hero-section .hero {
+    padding: var(--space-128) var(--space-12);
+  }
+  .hero-section .hero .container-experience {
+    width: 100%;
+  }
+  .hero-section .hero .container-experience p {
+    font-size: 11px;
+  }
 }
