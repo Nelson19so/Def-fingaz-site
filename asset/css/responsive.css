@@ -179,7 +179,6 @@
   }
   .hero-section .hero {
     padding: var(--space-128) var(--space-12);
-    height: 70vh;
   }
   .hero-section .hero .container-experience {
     width: 100%;
