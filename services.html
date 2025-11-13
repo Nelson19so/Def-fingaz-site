@@ -7,6 +7,101 @@
     <title>Services Page</title>
 </head>
 <body style="background-color: black;">
+        <!-- Navbar start from here -->
+    <nav class="navbar __main-pages-navbar">
+      <div class="container-navbar-padding">
+        <!-- Container logo and dropdown menu button -->
+        <div class="navbar-container-logo">
+          <div
+            class="container-navbar-logo"
+            style="
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 12px;
+            "
+          >
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-music"
+              >
+                <path d="M9 18V5l12-2v13"></path>
+                <circle cx="6" cy="18" r="3"></circle>
+                <circle cx="18" cy="16" r="3"></circle>
+              </svg>
+            </div>
+            <a href="./index.html">Def fingaz</a>
+          </div>
+          <div class="container-mobile-navbar-dropdown">
+            <button class="dropdown-btn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-align-justify"
+              >
+                <line x1="21" y1="10" x2="3" y2="10"></line>
+                <line x1="21" y1="6" x2="3" y2="6"></line>
+                <line x1="21" y1="14" x2="3" y2="14"></line>
+                <line x1="21" y1="18" x2="3" y2="18"></line>
+              </svg>
+
+              <!-- cancel svg -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#a855f7"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="feather feather-x svg-hidden"
+              >
+                <line x1="18" y1="6" x2="6" y2="18"></line>
+                <line x1="6" y1="6" x2="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Container articles for list and book session button -->
+        <div class="container-ul-list-btn __navbar-mobile-dropdown">
+          <div class="container-ul">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./portfoli.html">Portfolio</a></li>
+              <li><a href="./shop.html">Shop</a></li>
+              <li><a href="./pricing.html">Pricing</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="container-navbar-btn">
+            <button class="navbar-book-session-btn">Book Session</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+<!-- Navbar ends -->    
     <section id="services-list">  
         <div class="breadcrumb-row">
             <nav aria-label="breadcrumb">
@@ -180,5 +275,106 @@
             </th>
         </div>
     </section>
+
+    <!-- Footer begins here -->
+    <footer class="pages-footer">
+      <div class="container-footer-padding">
+        <div class="top-footer-container">
+          <div class="container-footer-left">
+            <div class="footer-logo">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#a855f7"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-music"
+                >
+                  <path d="M9 18V5l12-2v13"></path>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <circle cx="18" cy="16" r="3"></circle>
+                </svg>
+              </div>
+              <p>Def fingaz</p>
+            </div>
+
+            <div class="container-article">
+              <p>
+                Professional music production studio bringing your creative
+                vision to life.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-footer-middle-container">
+            <div class="footer-left-middle-container">
+              <p>Quick Links</p>
+
+              <div class="container-ul">
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./services.html">Services</a></li>
+                  <li><a href="./portfoli.html">Portfolio</a></li>
+                  <li><a href="./shop.html">Shop</a></li>
+                  <li><a href="./pricing.html">Pricing</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="footer-left-middle-container">
+              <p>Services</p>
+
+              <div class="container-ul">
+                <ul>
+                  <li>Recording</li>
+                  <li>Mixing & Mastering</li>
+                  <li>Production</li>
+                  <li>Podcast Services</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-newsletter">
+            <div class="newsletter-header"><p>Newsletter</p></div>
+            <div class="newsletter-article">
+              <span
+                >Subscribe to get updates on special offers and new
+                services.</span
+              >
+            </div>
+            <div class="container-newsletter-form">
+              <form action="#">
+                <input
+                  type="email"
+                  name="newsletter-email"
+                  id="newsletter-email"
+                  placeholder="Your email"
+                />
+                <button>Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-container-bottom">
+          <div class="left-container">
+            <p>&copy; 2026 Def fingaz studio. All rights reserved.</p>
+          </div>
+
+          <div class="right-container">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends here -->
 </body>
 </html>

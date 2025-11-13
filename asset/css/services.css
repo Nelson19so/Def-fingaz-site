@@ -78,35 +78,35 @@ h4 {
 
 #svg-box-color1 {
   background-color: #0b0013;
-  width:55px;
+  width:75px;
   border-radius: 15%;
   padding: 10px;
 }
 
 #svg-box-color2 {
   background-color: #001405;
-  width:55px;
+  width:75px;
   border-radius: 15%;
   padding: 10px;
 }
 #svg-box-color3 {
   background-color: #000411;
-  width:55px;
+  width:75px;
   border-radius: 15%;
   padding: 10px;
 }
 #svg-box-color4 {
   background-color: #110f00;
-  width:55px;
+  width:75px;
   border-radius: 15%;
   padding: 10px;
 }
 
 .services-box-details {
   background-color: var(--color-card-bg);
-    border-radius: 10px;
-    margin: var(--space-16);
-    padding: var(--space-16);
+  border-radius: 10px;
+  margin: var(--space-16);
+  padding: var(--space-16);
 }
 
 #lists {
