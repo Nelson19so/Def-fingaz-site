@@ -1,0 +1,116 @@
+
+/*
+    Services styling begins
+ */
+
+/* Navbar */
+.navbar {
+  padding: var(--space-16) var(--space-32);
+  background-color: var(--color-bg-black);
+  color: var(--color-text-white);
+}
+
+/* Headings */
+h1 {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-white);
+}
+
+/* Paragraphs */
+p {
+  font-size: var(--font-size-base);
+  color: var(--color-text-gray);
+}
+
+
+/* Services Grid */ 
+#services-list {
+  background-color: #080808;
+}
+
+#service-horizontal-rule {
+  border: none;
+  height: 1px;
+  background-color: rgba(128, 128 , 128, 0.4);
+}
+
+#services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 70vh;
+}
+
+.image-svg {
+    height: 45px;
+    width: 55px;
+} 
+
+h4 {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-white);
+}
+
+
+#services-list > #services-container {
+    border-radius: 5%;
+    margin: var(--space-8);
+    padding: var(--space-16);
+}
+
+.services-box {
+    background-color: var(--color-card-bg);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: var(--space-16);
+    padding: var(--space-16);
+}
+
+.services-box:hover {
+  border: 1px solid var(--color-border-purple, #7b61ff);
+}
+
+.txt-details {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-white);
+}
+
+#svg-box-color1 {
+  background-color: #0b0013;
+  width:55px;
+  border-radius: 15%;
+  padding: 10px;
+}
+
+#svg-box-color2 {
+  background-color: #001405;
+  width:55px;
+  border-radius: 15%;
+  padding: 10px;
+}
+#svg-box-color3 {
+  background-color: #000411;
+  width:55px;
+  border-radius: 15%;
+  padding: 10px;
+}
+#svg-box-color4 {
+  background-color: #110f00;
+  width:55px;
+  border-radius: 15%;
+  padding: 10px;
+}
+
+.services-box-details {
+  background-color: var(--color-card-bg);
+    border-radius: 10px;
+    margin: var(--space-16);
+    padding: var(--space-16);
+}
+
+#lists {
+  display: flex;
+  gap: var(--space-128);
+  flex-wrap: wrap;
+}

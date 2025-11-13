@@ -1,6 +1,7 @@
 @import url("./animation.css");
 @import url("./responsive.css");
 @import url("./variables.css");
+@import url("./servcies.css");
 
 /*
     Def fingaz styling begins
@@ -31,8 +32,4 @@ h1 {
 p {
   font-size: var(--font-size-base);
   color: var(--color-text-gray);
-}
-
-div {
-  background-color: var(--color-bg-black);
 }
