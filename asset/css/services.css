@@ -3,27 +3,6 @@
     Services styling begins
  */
 
-/* Navbar */
-.navbar {
-  padding: var(--space-16) var(--space-32);
-  background-color: var(--color-bg-black);
-  color: var(--color-text-white);
-}
-
-/* Headings */
-h1 {
-  font-size: var(--font-size-h1);
-  font-weight: var(--font-weight-medium);
-  color: var(--color-text-white);
-}
-
-/* Paragraphs */
-p {
-  font-size: var(--font-size-base);
-  color: var(--color-text-gray);
-}
-
-
 /* Services Grid */ 
 #services-list {
   background-color: #080808;
