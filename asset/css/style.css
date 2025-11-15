@@ -247,6 +247,12 @@ a:focus {
 }
 .pages-footer .container-newsletter .container-newsletter-form {
   margin-top: var(--space-12);
+  width: 90%;
+}
+.pages-footer .container-newsletter .container-newsletter-form form {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-8);
 }
 .pages-footer .container-newsletter .container-newsletter-form input {
   background: transparent;
@@ -255,6 +261,7 @@ a:focus {
   border-radius: 4px;
   font-size: 16px;
   color: var(--color-text-white);
+  width: 100%;
 }
 .pages-footer .container-newsletter .container-newsletter-form button {
   background-color: var(--color-purple-dark);
