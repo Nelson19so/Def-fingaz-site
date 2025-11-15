@@ -127,7 +127,7 @@
   }
   .navbar .container-navbar-padding .container-ul-list-btn {
     display: flex;
-    gap: var(--space-16);
+    gap: var(--space-8);
     flex-direction: column;
     flex: none;
     width: 100%;
