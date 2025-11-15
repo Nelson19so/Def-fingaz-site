@@ -247,7 +247,7 @@ a:focus {
 }
 .pages-footer .container-newsletter .container-newsletter-form {
   margin-top: var(--space-12);
-  width: 90%;
+  width: 95%;
 }
 .pages-footer .container-newsletter .container-newsletter-form form {
   display: flex;
