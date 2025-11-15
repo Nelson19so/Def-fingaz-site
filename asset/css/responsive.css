@@ -174,14 +174,17 @@
   }
 
   /* responsive home page hero section */
-  .hero-section {
-    height: 75vh;
+  /* .hero-section {
+    height: ;
+  } */
+  .hero-section .hero {
+    height: fit-content;
+    padding: var(--space-128) var(--space-12);
+    padding-bottom: var(--space-32);
+    overflow: hidden;
   }
   .hero-section .hero .container-articles {
     width: 100%;
-  }
-  .hero-section .hero {
-    padding: var(--space-128) var(--space-12);
   }
   .hero-section .hero .container-experience {
     width: 100%;
