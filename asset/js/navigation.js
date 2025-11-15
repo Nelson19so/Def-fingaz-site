@@ -19,7 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
       dropDownBtn.addEventListener("click", () => {
         // Loop through each navbar drop down
         navDropdownItem.forEach((navDropdownItm) => {
-          navDropdownItm.classList.toggle("drop-down-class");
+          if (navDropdownItm.classList.contains("drop-down-class")) {
+            navDropdownItm.classList.toggle("drop-up-class");
+          } else {
+            navDropdownItm.classList.toggle("drop-down-class");
+          }
 
           // Checks if X and align svg exist before statement
           if (featherX && featherAlignJustify) {
