@@ -18,6 +18,18 @@
     gap: var(--space-96);
   }
 
+  /* Breadcrumbs */
+  .container-breadcrumbs__ .container-breadcrumbs-padding__ {
+    width: 100%;
+    padding: var(--space-12) var(--space-64);
+  }
+
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding {
+    width: 100%;
+    padding: var(--space-96) var(--space-64);
+  }
+
   /* responsive navbar in different screens */
   .pages-footer .container-footer-padding {
     padding: var(--space-32) var(--space-64);
@@ -50,7 +62,7 @@
   .pages-footer .container-footer-padding .top-footer-container {
     flex-direction: column;
     justify-content: space-between;
-    gap: var(--space-16);
+    gap: var(--space-28);
   }
   .pages-footer .container-footer-padding .container-footer-middle-container {
     justify-content: flex-start;
@@ -76,6 +88,18 @@
     gap: var(--space-28);
   }
 
+  /* Breadcrumbs */
+  .container-breadcrumbs__ .container-breadcrumbs-padding__ {
+    width: 100%;
+    padding: var(--space-12) var(--space-48);
+  }
+
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding {
+    width: 100%;
+    padding: var(--space-96) var(--space-48);
+  }
+
   /* responsive footer in different screens */
   .pages-footer .container-footer-padding {
     padding: var(--space-32) var(--space-48);
@@ -91,6 +115,26 @@
   .navbar .container-navbar-padding {
     padding: var(--space-8) var(--space-16);
     gap: var(--space-16);
+  }
+
+  /* Breadcrumbs */
+  .container-breadcrumbs__ .container-breadcrumbs-padding__ {
+    width: 100%;
+    padding: var(--space-12) var(--space-16);
+  }
+
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding {
+    width: 100%;
+    padding: var(--space-96) var(--space-16);
+  }
+  .container-portfolio .container-portfolio-padding header p {
+    width: 100%;
+  }
+  .container-portfolio .container-portfolio-padding .portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: var(--space-24); */
   }
 }
 
@@ -171,6 +215,12 @@
   a:focus {
     color: var(--color-text-white);
     background-color: var(--color-card-bg);
+    padding: var(--space-8) var(--space-8);
+  }
+
+  /* BreadCrumbs */
+  .container-breadcrumbs__ {
+    margin-top: 68px;
   }
 
   /* responsive navbar in different screens */
@@ -209,6 +259,13 @@
 }
 
 @media only screen and (max-width: 589px) {
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding .portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: var(--space-24); */
+  }
+
   /* Page footer */
   .pages-footer .container-newsletter .container-newsletter-form {
     margin-top: var(--space-12);

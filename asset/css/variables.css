@@ -9,6 +9,7 @@
   --color-text-gray: rgba(255, 255, 255, 0.6);
   --color-border: rgba(255, 255, 255, 0.1);
   --color-border-purple: rgba(168, 85, 247, 0.5);
+  --color-transparent-purple-light: rgb(10, 8, 11);
 
   /* SPACING SCALE */
   --space-2: 2px;
