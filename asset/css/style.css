@@ -345,6 +345,7 @@ button:focus {
   text-align: center;
   align-items: center;
   padding-top: var(--space-16);
+  gap: var(--space-8);
 }
 .pages-footer .footer-container-bottom .right-container {
   display: flex;
