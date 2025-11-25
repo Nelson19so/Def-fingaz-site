@@ -1,7 +1,7 @@
 /* navbar responsive dropdown animation */
 @media only screen and (max-width: 768px) {
   .drop-down-class {
-    height: 300px !important;
+    height: 288px !important;
     animation: 0.5s ease-in-out;
     transition: 0.5s;
     margin-top: var(--space-24);
