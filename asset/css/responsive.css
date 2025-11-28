@@ -261,12 +261,13 @@
   }
 
   /* responsive home page hero section */
-  /* .hero-section {
-    height: ;
-  } */
+  .hero-section {
+    height: 100vh;
+  }
   .hero-section .hero {
-    height: fit-content;
-    padding: var(--space-128) var(--space-12);
+    height: 100%;
+    padding-left: var(--space-12);
+    padding-right: var(--space-12);
     padding-bottom: var(--space-32);
     padding-top: 200px;
     overflow: hidden;
