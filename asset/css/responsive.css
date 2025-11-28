@@ -257,7 +257,7 @@
     padding-left: var(--space-12);
     padding-right: var(--space-12);
     padding-bottom: var(--space-32);
-    padding-top: var(--space-128);
+    padding-top: 200px;
     overflow: hidden;
   }
   .hero-section .hero .container-articles {
