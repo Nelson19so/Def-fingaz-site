@@ -45,8 +45,23 @@ span {
   padding: 0;
 }
 
+/* global padding */
 .main-padding {
-  padding: var(--space-8) var(--space-128);
+  padding: var(--space-96) var(--space-128);
+}
+
+.--global-header {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-16);
+  flex-direction: column;
+}
+.--global-header h2 {
+  color: var(--color-text-white);
+  font-weight: 600;
 }
 
 /* ------------------------ */

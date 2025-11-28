@@ -8,20 +8,6 @@
 }
 .container-portfolio .container-portfolio-padding {
   width: 100%;
-  padding: var(--space-96) var(--space-128);
-}
-.container-portfolio .container-portfolio-padding header {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: var(--space-16);
-  flex-direction: column;
-}
-.container-portfolio .container-portfolio-padding header h2 {
-  color: var(--color-text-white);
-  font-weight: var(--font-weight-normal);
 }
 .container-portfolio .container-portfolio-padding header p {
   width: 65%;
