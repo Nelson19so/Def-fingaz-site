@@ -44,6 +44,14 @@
   justify-content: space-between;
   flex-direction: column;
   overflow: hidden;
+  animation: 1s ease-in-out;
+  transition: 1s;
+}
+.container-portfolio
+  .container-portfolio-padding
+  .portfolio-grid-container
+  .portfolio-grid-item:hover {
+  border: 0.1px solid var(--color-purple-primary);
 }
 .container-portfolio
   .container-portfolio-padding
@@ -61,7 +69,16 @@
   .container-portfolio-padding
   .portfolio-grid-container
   .portfolio-grid-item
-  .container-image:hover
+  .container-image,
+.overlay {
+  animation: 1s ease-in-out;
+  transition: 1s;
+}
+.container-portfolio
+  .container-portfolio-padding
+  .portfolio-grid-container
+  .portfolio-grid-item:hover
+  /* .container-image:hover */
   .overlay {
   background: rgba(0, 0, 0, 0.45);
 }
