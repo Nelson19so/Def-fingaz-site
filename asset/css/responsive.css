@@ -249,11 +249,11 @@
   }
 
   /* responsive home page hero section */
-  /* .hero-section {
-    height: ;
-  } */
+  .hero-section {
+    height: 95vh;
+  }
   .hero-section .hero {
-    height: fit-content;
+    height: 100%;
     padding: var(--space-128) var(--space-12);
     padding-bottom: var(--space-32);
     padding-top: 200px;
