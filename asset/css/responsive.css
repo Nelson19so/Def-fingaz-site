@@ -209,13 +209,11 @@
     .container-ul
     ul
     li
-    a:hover,
-  a:active,
-  a:visited,
-  a:focus {
+    a:hover {
     color: var(--color-text-white);
     background-color: var(--color-card-bg);
     padding: var(--space-8) var(--space-8);
+    border-radius: 4px;
   }
   .navbar
     .container-navbar-padding
@@ -258,7 +256,7 @@
     height: fit-content;
     padding: var(--space-128) var(--space-12);
     padding-bottom: var(--space-32);
-    padding-top: 180px;
+    padding-top: 200px;
     overflow: hidden;
   }
   .hero-section .hero .container-articles {
