@@ -1,9 +1,10 @@
-// Load Tea json files
-fetch("../data/team.json")
+// Load Team json file
+fetch("../../data/team.json")
+  .then((response) => response.json())
   .then((team) => {
     const slides = document.getElementById("slides");
 
-    team.array.forEach((person) => {
+    team.forEach((person) => {
       const slide = document.createElement("div");
       slide.classList.add("slide");
 
@@ -12,7 +13,8 @@ fetch("../data/team.json")
           <img src="${person.image}" alt="${person.name}" />
         </div>
         <article>
-          <p style="color: #fff; font-size: large">Xean</p>
+          <p style="color: #fff; font-size: large">${person.name}</p>
+
           <p
             style="
               display: flex;
@@ -40,12 +42,12 @@ fetch("../data/team.json")
             </svg>
             ${person.role}
           </p>
-          <p>
-            ${person.bio}
-          </p>
-          <a href="#">${person.email}</a>
+
+          <p>${person.bio}</p>
+
+          <a href="mailto:${person.email}">${person.email}</a>
         </article>
-    `;
+      `;
 
       slides.appendChild(slide);
     });
