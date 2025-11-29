@@ -1,14 +1,15 @@
-// Load Team json file
-fetch("../../data/team.json")
-  .then((response) => response.json())
-  .then((team) => {
-    const slides = document.getElementById("slides");
+document.addEventListener("DOMContentLoaded", function () {
+  // Load Team json file
+  fetch("../../data/songs.json")
+    .then((response) => response.json())
+    .then((team) => {
+      const slides = document.getElementById("slides");
 
-    team.forEach((person) => {
-      const slide = document.createElement("div");
-      slide.classList.add("slide");
+      team.forEach((person) => {
+        const slide = document.createElement("div");
+        slide.classList.add("slide");
 
-      slide.innerHTML = `
+        slide.innerHTML = `
         <div class="container-img">
           <img src="${person.image}" alt="${person.name}" />
         </div>
@@ -49,7 +50,8 @@ fetch("../../data/team.json")
         </article>
       `;
 
-      slides.appendChild(slide);
-    });
-  })
-  .catch((error) => console.log("Error loading JSON", error));
+        slides.appendChild(slide);
+      });
+    })
+    .catch((error) => console.log("Error loading JSON", error));
+});
