@@ -1,5 +1,5 @@
 // Load Team json file
-fetch("../data/team.json")
+fetch("../../data/team.json")
   .then((response) => response.json())
   .then((team) => {
     const slides = document.getElementById("slides");
