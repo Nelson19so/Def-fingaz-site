@@ -4,10 +4,27 @@
     Page responsiveness
  */
 
+@media only screen and (max-width: 1275px) {
+  /* responsive shop page */
+  .container-shop-page
+    .container-shop-page-padding
+    .container-shop-items
+    .container-shop-table {
+    max-width: 599px;
+  }
+}
 @media only screen and (max-width: 1145px) {
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
     gap: var(--space-48);
+  }
+
+  /* responsive shop page */
+  .container-shop-page
+    .container-shop-page-padding
+    .container-shop-items
+    .container-shop-table {
+    max-width: 499px;
   }
 }
 
@@ -62,6 +79,22 @@
 }
 
 @media only screen and (max-width: 930px) {
+  /* Shop page */
+  .container-shop-page
+    .container-shop-page-padding
+    .container-shop-items
+    .container-shop-table {
+    max-width: 100%;
+  }
+  .container-shop-page .container-shop-page-padding .container-cart-items {
+    min-height: 260px;
+    max-width: 390px;
+    height: max-content;
+  }
+  .container-shop-page .container-shop-page-padding .container-shop-items {
+    flex-direction: column;
+  }
+
   /* footer */
   .pages-footer .container-footer-padding .top-footer-container {
     flex-direction: column;
