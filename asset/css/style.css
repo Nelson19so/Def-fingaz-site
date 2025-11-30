@@ -205,6 +205,7 @@ a:focus {
   a
   span {
   color: var(--color-purple-dark);
+  cursor: auto;
 }
 .container-breadcrumbs__ .container-breadcrumbs-padding__ ul li a {
   display: flex;
@@ -212,10 +213,12 @@ a:focus {
   align-items: center;
   gap: var(--space-4);
 }
-/* .container-breadcrumbs__ .container-breadcrumbs-padding__ ul li a a:hover,
-a:focus > span {
+.container-breadcrumbs__ .container-breadcrumbs-padding__ ul li a:hover span {
   color: var(--color-purple-dark);
-} */
+}
+.container-breadcrumbs__ .container-breadcrumbs-padding__ ul li a:hover svg {
+  stroke: var(--color-purple-dark);
+}
 .container-breadcrumbs__ .container-breadcrumbs-padding__ ul li a span {
   font-size: 14px;
   color: var(--color-text-gray);
