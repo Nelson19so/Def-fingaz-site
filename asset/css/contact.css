@@ -1,0 +1,274 @@
+/* Contact page css file */
+
+.container-contact-page {
+  width: 100vw;
+  height: auto;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+  overflow: hidden;
+  gap: 70px;
+  margin-top: 70px;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form,
+.container-contact-information {
+  flex: 1;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form {
+  background-color: var(--color-card-bg);
+  padding: var(--space-24);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+  max-width: 555px;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form
+  .container-first_last-name {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-16);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form
+  input,
+#contact-message {
+  background-color: var(--color-bg-black);
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: var(--space-12);
+  border-radius: var(--radius-card);
+  color: #fff;
+  transition: 0.3;
+  animation: 0.3s ease-in-out;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form
+  #contact-message {
+  height: 70px;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form
+  input:hover,
+#contact-message:hover {
+  border: 1px solid #f0f8ff;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form
+  input:focus,
+#contact-message:focus {
+  border: 1px solid #f0f8ff;
+  border-color: #fff;
+  box-shadow: 0 0 0.35rem rgba(255, 255, 255, 0.8);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-form
+  form
+  button {
+  background-color: var(--color-purple-dark);
+  width: 100%;
+  padding: var(--space-12);
+  border-radius: var(--radius-card);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  header
+  p {
+  color: #fff;
+  font-size: 18px;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .articles {
+  width: 100%;
+  padding: var(--space-32) 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: var(--space-24);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .articles
+  .container-svg
+  .svg-main-container {
+  padding: 16px;
+  background-color: var(--color-card-bg);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .articles
+  .container-contact-details {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: var(--space-16);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .articles
+  .container-contact-details
+  .container-detail-txt {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: var(--space-8);
+  height: 100%;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .articles
+  .container-contact-details
+  .container-detail-txt
+  span {
+  color: #fff;
+  font-size: 16px;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .container-social-media-link {
+  padding: var(--space-32) 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: var(--space-16);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .container-social-media-link
+  a
+  .social__ {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  background-color: var(--color-card-bg);
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  transition: 0.6s;
+  animation: 0.6s ease-in-out;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .container-social-media-link
+  a
+  .social__:hover {
+  background-color: var(--color-purple-dark);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .container-active-days {
+  background-color: var(--color-purple-dark);
+  padding: var(--space-24);
+  border-radius: var(--radius-card);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-16);
+  flex-direction: column;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .container-active-days
+  ._active-days {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-12);
+  flex-direction: row;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-articles
+  .container-contact-information
+  .container-active-days
+  p {
+  color: var(--color-text-white);
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-google-map {
+  background-color: var(--color-text-white);
+  border-radius: var(--radius-card);
+  width: 100%;
+  height: 60vh;
+  margin-top: var(--space-64);
+  display: flex;
+  align-items: center;
+  place-content: center;
+}
+.container-contact-page
+  .container-contact-page-padding
+  .container-contact-google-map
+  p {
+  color: var(--color-card-bg);
+  text-align: center;
+}

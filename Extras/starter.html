@@ -120,8 +120,8 @@ in a professional and immersive way.
     <!-- Navbar ends -->
 
     <!-- BreadCrumbs -->
-    <div class="container-breadcrumbs">
-      <div class="container-breadcrumbs-padding">
+    <div class="container-breadcrumbs__">
+      <div class="container-breadcrumbs-padding__">
         <ul>
           <li>
             <a href="./index.html">
@@ -162,8 +162,8 @@ in a professional and immersive way.
           </li>
 
           <li>
-            <a href=".New-page.html">
-              <span>New Page</span>
+            <a href="#">
+              <span>New page</span>
             </a>
           </li>
         </ul>
@@ -172,7 +172,15 @@ in a professional and immersive way.
     <!-- BreadCrumbs ends -->
 
     <!-- Website content -->
-    <section style="height: 90vh; width: 100vw"></section>
+    <section style="height: 90vh; width: 100vw; padding: 100px">
+      <header class="--global-header">
+        <h2>Global header for all pages</h2>
+        <p>
+          since all pages uses the same header, the css is made to apply to this
+          header globally across any page it's used.
+        </p>
+      </header>
+    </section>
     <!-- content ends -->
 
     <!-- Footer begins here -->

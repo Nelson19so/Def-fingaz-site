@@ -118,16 +118,17 @@
   .container-team-defingaz-padding
   .carousel-container
   .slides {
-  display: flex;
   transform: 0.3;
   animation: 0.3 ease;
   gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .container-team-defingaz
   .container-team-defingaz-padding
   .carousel-container
   .slide {
-  flex: 0 0 33.3333%;
+  /* flex: 0 0 33.3333%; */
   box-sizing: border-box;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-card);

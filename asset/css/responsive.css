@@ -148,6 +148,21 @@
     grid-template-columns: repeat(2, 1fr);
     /* gap: var(--space-24); */
   }
+
+  /* Team */
+  .container-team-defingaz
+    .container-team-defingaz-padding
+    .carousel-container
+    .slides {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Contact page */
+  .container-contact-page
+    .container-contact-page-padding
+    .container-contact-articles {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -289,6 +304,14 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     /* gap: var(--space-24); */
+  }
+
+  /* Team */
+  .container-team-defingaz
+    .container-team-defingaz-padding
+    .carousel-container
+    .slides {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   /* Page footer */
