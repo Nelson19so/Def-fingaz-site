@@ -312,7 +312,7 @@
   .hero-section .container-hero-section .hero {
     padding-left: var(--space-12);
     padding-right: var(--space-12);
-    padding-bottom: var(--space-12);
+    padding-bottom: var(--space-32);
     padding-top: 200px;
   }
   .hero-section .container-hero-section .hero .container-articles {
