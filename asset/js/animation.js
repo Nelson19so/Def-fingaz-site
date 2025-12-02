@@ -65,4 +65,35 @@ document.addEventListener("DOMContentLoaded", () => {
   // ensure first tracker active & start autoplay
   goToSlide(0);
   autoPlay();
+
+  // Team carousel animation slideshow
+  const slider = new Splide("#my-slider", {
+    type: "loop",
+    gap: "1rem",
+
+    // Desktop
+    perPage: 3,
+    arrows: false,
+    pagination: true,
+
+    // Tablet & Mobile
+    breakpoints: {
+      1024: {
+        perPage: 2,
+        pagination: false,
+        arrows: false,
+      },
+      600: {
+        perPage: 1,
+        pagination: false,
+        arrows: false,
+      },
+    },
+  });
+
+  slider.mount();
+
+  // Custom arrows for mobile + tablet
+  document.getElementById("teamNextBtn").onclick = () => slider.go(">");
+  document.getElementById("teamPrevBtn").onclick = () => slider.go("<");
 });
