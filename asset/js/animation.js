@@ -1,17 +1,44 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const textElement = document.querySelector(".text-left");
-  const movementSpeed = 0.3;
+document.addEventListener("DOMContentLoaded", () => {
+  // Hero section carousel animation
+  let currentIndex = 0;
+  const slideCount = trackers.length;
+  let slideInterval = null;
+  const AUTO_MS = 5000; // 5 seconds scroll change
 
-  // website on load animation
-  setTimeout(() => {
-    textElement.classList.add(".is-visible");
-  }, 100);
+  function goToSlide(index) {
+    if (index < 0 || index >= slideCount) return;
+    currentIndex = index;
+    slidesTrack.style.transform = `translateX(-${index * 100}%)`;
 
-  // Movement animation for scrolling
-  function handleScrollMovement() {
-    // Get the current vertical scroll position
-    const scrollY = window.scrollY;
+    trackers.forEach((t) => t.classList.remove("active"));
+    trackers[index].classList.add("active");
   }
 
-  window.addEventListener("scroll", handleScrollMovement);
+  trackers.forEach((tracker) => {
+    tracker.addEventListener("click", () => {
+      const index = Number(tracker.dataset.index);
+      if (Number.isFinite(index)) {
+        goToSlide(index);
+        resetAutoPlay();
+      }
+    });
+  });
+
+  function autoPlay() {
+    // clear any existing interval just in case
+    clearInterval(slideInterval);
+    slideInterval = setInterval(() => {
+      currentIndex = (currentIndex + 1) % slideCount;
+      goToSlide(currentIndex);
+    }, AUTO_MS);
+  }
+
+  function resetAutoPlay() {
+    clearInterval(slideInterval);
+    autoPlay();
+  }
+
+  // initialize: ensure first tracker active & start autoplay
+  goToSlide(0);
+  autoPlay();
 });

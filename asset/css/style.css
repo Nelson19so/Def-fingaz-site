@@ -57,6 +57,7 @@ span {
   padding: var(--space-96) var(--space-128);
 }
 
+/* global header */
 .--global-header {
   width: 100%;
   text-align: center;
