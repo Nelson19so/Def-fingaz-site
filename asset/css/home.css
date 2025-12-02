@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
 }
 .hero-section .container-hero-section .slides-track {
@@ -38,7 +38,6 @@
   position: absolute;
   top: 0;
   z-index: 555;
-  height: fit-content;
   background: transparent;
   backdrop-filter: blur(1px);
   background: rgba(0, 0, 0, 0.7);
@@ -47,7 +46,7 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-96);
-  height: 100vh;
+  height: 80vh;
 }
 .hero-section .container-hero-section .hero .container-articles {
   width: 57%;
