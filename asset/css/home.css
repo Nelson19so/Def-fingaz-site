@@ -127,7 +127,7 @@
 /* Trackers */
 .hero-section .container-hero-section .hero .trackers {
   position: absolute;
-  bottom: 25px;
+  bottom: 35px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
