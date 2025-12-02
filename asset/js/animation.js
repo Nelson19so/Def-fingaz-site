@@ -1,9 +1,33 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Hero section carousel animation
+  // scroll movement handler
+  function handleScrollMovement() {
+    const scrollY = window.scrollY;
+    // move element by small fraction (only if it exists)
+    const moveTarget = document.querySelector(".move-on-scroll");
+    if (moveTarget) {
+      moveTarget.style.transform = `translateY(${scrollY * 0.1}px)`;
+    }
+  }
+  window.addEventListener("scroll", handleScrollMovement);
+
+  // slider logic (defensive)
+  const slidesTrack = document.querySelector(".slides-track");
+  const trackers = document.querySelectorAll(".tracker");
+
+  // Ensure required elements exist
+  if (!slidesTrack) {
+    console.warn("Slider: .slides-track not found in DOM — slider won't run.");
+    return;
+  }
+  if (!trackers || trackers.length === 0) {
+    console.warn("Slider: no .tracker elements found — slider won't run.");
+    return;
+  }
+
   let currentIndex = 0;
   const slideCount = trackers.length;
   let slideInterval = null;
-  const AUTO_MS = 5000; // 5 seconds scroll change
+  const AUTO_MS = 5000; // 5 seconds slide
 
   function goToSlide(index) {
     if (index < 0 || index >= slideCount) return;
@@ -38,7 +62,7 @@ document.addEventListener("DOMContentLoaded", () => {
     autoPlay();
   }
 
-  // initialize: ensure first tracker active & start autoplay
+  // ensure first tracker active & start autoplay
   goToSlide(0);
   autoPlay();
 });

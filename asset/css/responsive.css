@@ -310,10 +310,9 @@
 
   /* responsive home page hero section */
   .hero-section .container-hero-section .hero {
-    height: 100%;
     padding-left: var(--space-12);
     padding-right: var(--space-12);
-    padding-bottom: var(--space-32);
+    padding-bottom: var(--space-12);
     padding-top: 200px;
   }
   .hero-section .container-hero-section .hero .container-articles {
