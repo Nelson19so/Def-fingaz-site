@@ -25,8 +25,14 @@ p {
 
 
 /* Services Grid */ 
+
 #services-list {
   background-color: #080808;
+  padding-bottom: var(--space-128);
+  margin-top: var(--space-128);
+  margin-bottom: var(--space-128);
+  margin-left: var(--space-16);
+  margin-right: var(--space-16);
 }
 
 #service-horizontal-rule {
@@ -39,7 +45,6 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 70vh;
 }
 
 .image-svg {
@@ -64,12 +69,38 @@ h4 {
     overflow: hidden;
     border-radius: 10px;
     margin: var(--space-16);
-    padding: var(--space-16);
+    padding: var(--space-32);
+    border: 1px solid transparent; 
+    transition: border-color 200ms ease, box-shadow 200ms ease;
 }
 
 .services-box:hover {
-  border: 1px solid var(--color-border-purple, #7b61ff);
+  border-color: var(--color-border-purple, #7b61ff);
 }
+
+/* Services Grid ends*/ 
+
+/* Breadcrumb */
+nav[aria-label="breadcrumb"] ol {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav[aria-label="breadcrumb"] li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+nav[aria-label="breadcrumb"] li img {
+  vertical-align: middle;
+}
+
+/* Service Details */
 
 .txt-details {
   font-weight: var(--font-weight-medium);
@@ -77,20 +108,20 @@ h4 {
 }
 
 #svg-box-color1 {
-  background-color: #0b0013;
+  background-color: #09000f;
   width:75px;
   border-radius: 15%;
   padding: 10px;
 }
 
 #svg-box-color2 {
-  background-color: #001405;
+  background-color: #000e04;
   width:75px;
   border-radius: 15%;
   padding: 10px;
 }
 #svg-box-color3 {
-  background-color: #000411;
+  background-color: #00030e;
   width:75px;
   border-radius: 15%;
   padding: 10px;
@@ -109,8 +140,11 @@ h4 {
   padding: var(--space-16);
 }
 
-#lists {
+.service-lists {
   display: flex;
-  gap: var(--space-128);
+  gap: 300px;
   flex-wrap: wrap;
+  list-style: none;
 }
+
+/* Service Details ends*/
