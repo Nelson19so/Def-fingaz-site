@@ -4,18 +4,51 @@
     Page responsiveness
  */
 
+@media only screen and (max-width: 1275px) {
+  /* responsive shop page */
+  .container-shop-page
+    .container-shop-page-padding
+    .container-shop-items
+    .container-shop-table {
+    max-width: 599px;
+  }
+}
 @media only screen and (max-width: 1145px) {
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
     gap: var(--space-48);
   }
+
+  /* responsive shop page */
+  .container-shop-page
+    .container-shop-page-padding
+    .container-shop-items
+    .container-shop-table {
+    max-width: 499px;
+  }
 }
 
 @media only screen and (max-width: 1105px) {
+  /* main padding */
+  .main-padding {
+    padding: var(--space-96) var(--space-64);
+  }
+
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
     padding: var(--space-8) var(--space-64);
     gap: var(--space-96);
+  }
+
+  /* Breadcrumbs */
+  .container-breadcrumbs__ .container-breadcrumbs-padding__ {
+    width: 100%;
+    padding: var(--space-12) var(--space-64);
+  }
+
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding {
+    width: 100%;
   }
 
   /* responsive navbar in different screens */
@@ -46,15 +79,35 @@
 }
 
 @media only screen and (max-width: 930px) {
+  /* Shop page */
+  .container-shop-page
+    .container-shop-page-padding
+    .container-shop-items
+    .container-shop-table {
+    max-width: 100%;
+  }
+  .container-shop-page .container-shop-page-padding .container-cart-items {
+    min-height: 260px;
+    max-width: 390px;
+    height: max-content;
+  }
+  .container-shop-page .container-shop-page-padding .container-shop-items {
+    flex-direction: column;
+  }
+
   /* footer */
   .pages-footer .container-footer-padding .top-footer-container {
     flex-direction: column;
     justify-content: space-between;
-    gap: var(--space-16);
+    gap: var(--space-28);
   }
   .pages-footer .container-footer-padding .container-footer-middle-container {
     justify-content: flex-start;
     gap: var(--space-96);
+  }
+  .pages-footer .container-newsletter .container-newsletter-form {
+    margin-top: var(--space-12);
+    width: 55%;
   }
 }
 
@@ -66,23 +119,74 @@
 }
 
 @media only screen and (max-width: 886px) {
+  /* main padding */
+  .main-padding {
+    padding: var(--space-96) var(--space-48);
+  }
+
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
     padding: var(--space-8) var(--space-48);
     gap: var(--space-28);
   }
 
+  /* Breadcrumbs */
+  .container-breadcrumbs__ .container-breadcrumbs-padding__ {
+    width: 100%;
+    padding: var(--space-12) var(--space-48);
+  }
+
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding {
+    width: 100%;
+  }
+
   /* responsive footer in different screens */
   .pages-footer .container-footer-padding {
     padding: var(--space-32) var(--space-48);
   }
+  .pages-footer .container-newsletter .container-newsletter-form {
+    margin-top: var(--space-12);
+    width: 55%;
+  }
 }
 
 @media only screen and (max-width: 853px) {
+  /* main padding */
+  .main-padding {
+    padding: var(--space-96) var(--space-16);
+  }
+
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
     padding: var(--space-8) var(--space-16);
     gap: var(--space-16);
+  }
+
+  /* Breadcrumbs */
+  .container-breadcrumbs__ .container-breadcrumbs-padding__ {
+    width: 100%;
+    padding: var(--space-12) var(--space-16);
+  }
+
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding {
+    width: 100%;
+  }
+  .container-portfolio .container-portfolio-padding header p {
+    width: 100%;
+  }
+  .container-portfolio .container-portfolio-padding .portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: var(--space-24); */
+  }
+
+  /* Contact page */
+  .container-contact-page
+    .container-contact-page-padding
+    .container-contact-articles {
+    flex-direction: column;
   }
 }
 
@@ -119,7 +223,7 @@
   }
   .navbar .container-navbar-padding .container-ul-list-btn {
     display: flex;
-    gap: var(--space-32);
+    gap: var(--space-8);
     flex-direction: column;
     flex: none;
     width: 100%;
@@ -157,12 +261,29 @@
     .container-ul
     ul
     li
-    a:hover,
-  a:active,
-  a:visited,
-  a:focus {
+    a:hover {
     color: var(--color-text-white);
     background-color: var(--color-card-bg);
+    padding: var(--space-8) var(--space-8);
+    border-radius: 4px;
+  }
+  .navbar
+    .container-navbar-padding
+    .container-ul-list-btn
+    .container-navbar-btn {
+    width: 100%;
+  }
+  .navbar
+    .container-navbar-padding
+    .container-ul-list-btn
+    .container-navbar-btn
+    button {
+    width: 100%;
+  }
+
+  /* BreadCrumbs */
+  .container-breadcrumbs__ {
+    margin-top: 68px;
   }
 
   /* responsive navbar in different screens */
@@ -173,20 +294,41 @@
     flex-direction: column;
   }
 
+  /* Page footer */
+  .pages-footer .container-newsletter .container-newsletter-form {
+    margin-top: var(--space-12);
+    width: 75%;
+  }
+
   /* responsive home page hero section */
-  .hero-section {
-    height: 75vh;
+  .hero-section .container-hero-section .hero {
+    padding-left: var(--space-12);
+    padding-right: var(--space-12);
+    padding-bottom: var(--space-32);
+    padding-top: 200px;
   }
-  .hero-section .hero .container-articles {
+  .hero-section .container-hero-section .hero .container-articles {
     width: 100%;
   }
-  .hero-section .hero {
-    padding: var(--space-128) var(--space-12);
-  }
-  .hero-section .hero .container-experience {
+  .hero-section .container-hero-section .hero .container-experience {
     width: 100%;
   }
-  .hero-section .hero .container-experience p {
+  .hero-section .container-hero-section .hero .container-experience p {
     font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 589px) {
+  /* portfolio */
+  .container-portfolio .container-portfolio-padding .portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: var(--space-24); */
+  }
+
+  /* Page footer */
+  .pages-footer .container-newsletter .container-newsletter-form {
+    margin-top: var(--space-12);
+    width: 95%;
   }
 }
