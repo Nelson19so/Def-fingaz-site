@@ -9,6 +9,7 @@
   background-size: cover;
   background-clip: content-box;
   height: 100vh;
+  height: 100dvh;
   max-height: 100vh !important;
   overflow: hidden;
 }
@@ -31,8 +32,9 @@
 }
 .hero-section .container-hero-section .hero {
   padding: 0 var(--space-32);
-  padding-top: 150px;
-  padding-bottom: var(--space-64);
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
   text-align: center;
   width: 100%;
   position: absolute;
@@ -43,13 +45,11 @@
   background: transparent;
   backdrop-filter: blur(1px);
   background: rgba(0, 0, 0, 0.7);
-  display: flex;
-  justify-content: flex-start;
   flex-direction: column;
   align-items: center;
   gap: var(--space-96);
-  height: 100vh;
-  max-height: 100vh !important;
+  inset: 0;
+  height: auto;
 }
 .hero-section .container-hero-section .hero .container-articles {
   width: 57%;
