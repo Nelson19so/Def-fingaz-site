@@ -3,27 +3,26 @@
  */
 
 /* Navbar */
-.navbar {
+/* .navbar {
   padding: var(--space-16) var(--space-32);
   background-color: var(--color-bg-black);
   color: var(--color-text-white);
-}
+} */
 
 /* Headings */
-h1 {
+/* h1 {
   font-size: var(--font-size-h1);
   font-weight: var(--font-weight-medium);
   color: var(--color-text-white);
-}
+} */
 
 /* Paragraphs */
-p {
+/* p {
   font-size: var(--font-size-base);
   color: var(--color-text-gray);
-}
+} */
 
-
-/* Services Grid */ 
+/* Services Grid */
 
 #services-list {
   background-color: #080808;
@@ -41,9 +40,9 @@ p {
 }
 
 #services-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .image-svg {
@@ -63,20 +62,20 @@ h4 {
 }
 
 .services-box {
-    background-color: var(--color-card-bg);
-    overflow: hidden;
-    border-radius: 10px;
-    margin: var(--space-16);
-    padding: var(--space-32);
-    border: 1px solid transparent; 
-    transition: border-color 200ms ease, box-shadow 200ms ease;
+  background-color: var(--color-card-bg);
+  overflow: hidden;
+  border-radius: 10px;
+  margin: var(--space-16);
+  padding: var(--space-32);
+  border: 1px solid transparent;
+  transition: border-color 200ms ease, box-shadow 200ms ease;
 }
 
 .services-box:hover {
   border-color: var(--color-border-purple, #7b61ff);
 }
 
-/* Services Grid ends*/ 
+/* Services Grid ends*/
 
 /* Breadcrumb */
 nav[aria-label="breadcrumb"] ol {
@@ -107,20 +106,20 @@ nav[aria-label="breadcrumb"] li img {
 
 #svg-box-color1 {
   background-color: #09000f;
-  width:75px;
+  width: 75px;
   border-radius: 15%;
   padding: 10px;
 }
 
 #svg-box-color2 {
   background-color: #000e04;
-  width:75px;
+  width: 75px;
   border-radius: 15%;
   padding: 10px;
 }
 #svg-box-color3 {
   background-color: #00030e;
-  width:75px;
+  width: 75px;
   border-radius: 15%;
   padding: 10px;
 }

@@ -8,7 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: content-box;
-  height: 91vh;
+  height: 100vh;
   overflow: hidden;
 }
 .hero-section .container-hero-section .slides-track {
@@ -46,7 +46,7 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-96);
-  height: 92vh;
+  height: 100vh;
 }
 .hero-section .container-hero-section .hero .container-articles {
   width: 57%;
@@ -127,7 +127,7 @@
 /* Trackers */
 .hero-section .container-hero-section .hero .trackers {
   position: absolute;
-  bottom: 65px;
+  bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
