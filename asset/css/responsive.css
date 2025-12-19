@@ -36,7 +36,7 @@
 
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
-    padding: var(--space-8) var(--space-64);
+    padding: var(--space-4) var(--space-64);
     gap: var(--space-96);
   }
 
@@ -60,7 +60,7 @@
 @media only screen and (max-width: 1026px) {
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
-    padding: var(--space-8) var(--space-64);
+    padding: var(--space-4) var(--space-64);
     gap: var(--space-64);
   }
 }
@@ -68,7 +68,7 @@
 @media only screen and (max-width: 994px) {
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
-    padding: var(--space-8) var(--space-64);
+    padding: var(--space-4) var(--space-64);
     gap: var(--space-28);
   }
 
@@ -126,7 +126,7 @@
 
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
-    padding: var(--space-8) var(--space-48);
+    padding: var(--space-4) var(--space-48);
     gap: var(--space-28);
   }
 
@@ -159,7 +159,7 @@
 
   /* responsive navbar in different screens */
   .navbar .container-navbar-padding {
-    padding: var(--space-8) var(--space-16);
+    padding: var(--space-4) var(--space-16);
     gap: var(--space-16);
   }
 
@@ -211,7 +211,7 @@
   /* svg responsive display */
 
   .navbar .container-navbar-padding {
-    padding: var(--space-12) var(--space-12);
+    padding: var(--space-4) var(--space-12);
     flex-direction: column;
     gap: 0;
   }

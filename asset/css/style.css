@@ -87,7 +87,7 @@ span {
   z-index: 9999999;
 }
 .navbar .container-navbar-padding {
-  padding: var(--space-8) var(--space-128);
+  padding: var(--space-2) var(--space-128);
   color: var(--color-text-white);
   display: flex;
   justify-content: space-between;
